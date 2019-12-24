@@ -1,36 +1,50 @@
 <!-- add-breadcrumbs -->
-#Search Filter
+# Search Filter
 
-Search Filter option allow user to filter records based on value in the specific field of that document. Search Filters are available on the List View of Document Type and in the Report Builder.
+**Search Filter is an option that allows you to filter the records based on a particular value of a specific field in a Document.** 
+
+Search Filters are available on the List View and the Report Builder of a Document Type.
 
 Each filter option has three fields.
 
 #### Field
 
-Select field of the document based on which you wish to filter records.
+Select the field of the document based on which you wish to filter the records. All the fields in a form will be seletable in this list.
 
-<img alt="Search Filter Field" class="screenshot" src="{{docs_base_url}}/assets/img/articles/search-filter-field.gif">
-
+![Search Filter](/docs/assets/img/using-erpnext/using-search-filer-1.png)
 
 #### Based On
 
-With Field, you will provide a value. In the based on field, you can define a criterion that when filter should be applied in record. It will be when value define for the field if filter is:
+For field, you will be required to put a value of the field. In the 'based on' field, you can define a criteria based on which the system will search the document. 
 
-<img alt="Search Filter Based On" class="screenshot" src="{{docs_base_url}}/assets/img/articles/search-filter-based-on.gif">
+![Search Filter](/docs/assets/img/using-erpnext/using-search-filter-2.png)
+
+The different conditions on which the filters are based are:
+
+* '=' : 
+* 
 
 #### Value
 
-A value should be entered in this field based on while records will be filtered. After filter is applied, records will be filtered based on it. And filter will shrunk under one field/button.
+Here, you will be required to enter the value for which you are running the document search. 
 
-<img alt="Search Filter Based On" class="screenshot" src="{{docs_base_url}}/assets/img/articles/search-filter-result.png">
+![Search Filter](/docs/assets/img/using-erpnext/using-search-filter-3.png)
 
+So, on a whole, an algorithm or an equation for searching the documents will be created which will allow you to fetch your desired ser of documents.
 
-You can apply multiple filters at a time. To remove specific filter, just click on cancelled (X) sign ahead of it.
+![Search Filter](/docs/assets/img/using-erpnext/using-search-filter.gif)
 
-#### Ready Filters
+You can also apply multiple filters at a time. To remove specific filter, just click on 'x' sign on it.
 
-From the list views, you can also apply filters by clicking on the Status field.
+## Default Filters
 
-<img alt="Renamed Item" class="screenshot" src="{{docs_base_url}}/assets/img/articles/search-filter-auto.gif">
+There are some filters present out of the box for the views which can be used for filtering the search results. The default filters for any Document Type can be set from [Customize Form](/docs/user/manual/en/customize-erpnext/custom-field#12-more-properties) option. 
+
+![Search Filter](/docs/assets/img/using-erpnext/using-search-filter-4.png)
+
+## See also
+
+1. [Filter by](/docs/user/manual/en/using-erpnext/articles/filter-by-condition)
+1. [Save Filter](/docs/user/manual/en/using-erpnext/articles/save-filer)
 
 <!-- markdown -->

@@ -1,23 +1,24 @@
 <!-- add-breadcrumbs -->
 # Global Search
 
-Global search is a word-processing operation in which a complete computer file or set of files is searched for every occurrence of a particular word or other sequence of characters.
+**Global search is a powerful word-processing operation in ERPNext which will help you in searching for a particular Document Type or Document.**
 
-We have made the Awesome Bar of ERPNext lot more powerful by adding Global Search feature. 
-Global Search helps users find information quickly. It’s located in the upper right-hand corner in ERPNext.  Simply entering a few characters in the Search will show results from several different record types (Contact, Customer, Issues etc.) related to that keyword. You can also customise the fields based on which search will be shown.
-
-From v11, multi search term/keywords separated by & operator is supported, refer to the following use cases:
-
-- Input "apple & ipod" can return docs with one field contain Apple and the other contains iPpod( PO's vendor and item).
-- Input "iphone & ipod" can return target docs which contain both item iPhone and iPod (child table items).
-- Input "iphone & black" can return item with description contains both iPhone and black(long text field).
-- Input 'foo & bar" can return any docs with both tags foo and bar assigned.(special long text field _usertags).
+For every sequence of a particuar word or a set of characters, you will have a search result. 
 
 ### Using Awesome Bar for Global Search.
 
-<img alt="Global Search" class="screenshot" src="{{docs_base_url}}/assets/img/articles/global-search/global-search.gif">
+![Tree Master Renaming](/docs/assets/img/using-erpnext/using-global-search-2.gif)
+
+Global Search helps users find information quickly. It’s located in the upper right-hand corner in ERPNext.  Simply entering a few characters in the Search Bar will show results from several different record types (Contact, Customer, Issues, etc.) related to that keyword. You can also customize the fields based on which search will be shown.
+
+You can also type in multiple keywords seperated by & operator to find your desirable results. You may refer to the following cases for examples:
+
+- Input "apple & iPod" can return documents with one field contain Apple and the other contains iPod( PO's vendor and item).
+- Input "iPhone & iPod" can return target documents that contain both item iPhone and iPod (child table items).
+- Input "iPhone & black" can return the item with description contains both iPhone and black(long text field).
+- Input 'foo & bar" can return any docs with both tags foo and bar assigned.(special long text field _usertags).
 
 ### Enable Global Search for fields in a Doctype.
 
-<img alt="Global Search" class="screenshot" src="{{docs_base_url}}/assets/img/articles/global-search/enable-global-search.gif">
+![Tree Master Renaming](/docs/assets/img/using-erpnext/using-global-search-1.gif)
 
